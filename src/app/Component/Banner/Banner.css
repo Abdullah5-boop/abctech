@@ -91,6 +91,27 @@
 }
 
 
+.part-5-cart{
+  background-color: rgba(58, 128, 245, 1);
+  clip-path: polygon(0 0, 100% 25%, 100% 100%, 0% 100%);
+  color: white;
+  /* background: */
+  /* url('../../../resource/backgrounds/WaveLinesDesktop1.svg'); */
+  /* url('../../../resource/backgrounds/WaveLinesDesktop2.svg'); */
+  /* url('../../../resource/backgrounds/WaveLinesDesktop3.svg'); */
+  /* url('../../../resource/backgrounds/WaveLinesDesktop1.svg');
+
+background-size: cover;
+background-repeat: no-repeat;  */
+
+
+
+
+
+
+}
+
+
 
 @media only screen and (max-width: 600px) {
 

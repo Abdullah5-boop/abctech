@@ -2,6 +2,8 @@ import React from 'react'
 import Image from "next/image";
 import photos3 from '../../../resource/photos4.avif'
 import icon1 from '../../../resource/icons/cart/bolt_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg'
+import icon2 from '../../../resource/icons/cart/home_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg'
+import icon3 from '../../../resource/icons/cart/view_kanban_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg'
 export default function Part3() {
     return (
         <div className='flex flex-col justify-center items-center'>
@@ -18,16 +20,45 @@ export default function Part3() {
                 ></Image>
             </div>
             <div className="part-3-cart grid grid-cols-1
-             lg:grid-cols-3 gap-5 w-full lg:w-[68%] h-full  lg:h-[32vh] mt-7">
-                <div className="cart-1 border rounded-lg">
-                <div className="logo bg-fuchsia-500 ">
-                   <Image
-                   src={icon1}
-                   ></Image>
-                    </div>    
+             lg:grid-cols-3 gap-5 w-full lg:w-[68%] h-[100vh]  lg:h-[32vh] mt-7">
+                <div className="cart-1 border rounded-lg flex flex-col justify-around px-7 py-5">
+                    <div className="logo bg-gray-500 rounded-full h-10 w-10  flex justify-center items-center  ">
+                        <Image className=''
+                            src={icon1}
+                            alt='photos4'
+                        ></Image>
+
+                    </div>
+                    <h1 className='text-3xl'>Full-suit solution</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, illum. adipisicing elit. Mollitia nesciunt iure, veritatis et </p>
+
                 </div>
-                <div className="cart-2 border"> car1-2</div>
-                <div className="cart-3 border"> cart-3</div>
+                <div className="cart-1 border rounded-lg flex flex-col justify-around px-7 py-5">
+                    <div className="logo bg-gray-500 rounded-full h-10 w-10  flex justify-center items-center  ">
+                        <Image className=''
+                            src={icon2}
+                            alt='photos4'
+                        ></Image>
+
+                    </div>
+                    <h1 className='text-3xl'>Full-suit solution</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, illum. adipisicing elit. Mollitia nesciunt iure, veritatis et </p>
+
+                </div>
+                <div className="cart-1 border rounded-lg flex flex-col justify-around px-7 py-5">
+                    <div className="logo bg-gray-500 rounded-full h-10 w-10  flex justify-center items-center  ">
+                        <Image className=''
+                            src={icon3}
+                            alt='photos4'
+                        ></Image>
+
+                    </div>
+                    <h1 className='text-3xl'>Full-suit solution</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, illum. adipisicing elit. Mollitia nesciunt iure, veritatis et </p>
+
+                </div>
+                
+           
             </div>
         </div>
     )

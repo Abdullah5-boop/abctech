@@ -1,0 +1,136 @@
+.banner-container {
+  position: relative;
+  background-color: rgba(58, 128, 245, 1);
+  clip-path: polygon(0 0, 100% 0%, 100% 85%, 0% 100%);
+}
+.bg-inner-container {
+
+
+  /* background: url('../../../resource/backgrounds/WaveLinesDesktop1.svg'),
+    url('../../../resource/backgrounds/WaveLinesDesktop2.svg'),
+    url('../../../resource/backgrounds/WaveLinesDesktop3.svg'),
+    url('../../../resource/backgrounds/WaveLinesDesktop4.svg') */
+
+  }
+
+.background-layer {
+  width: 60vw;
+  height: 80vh;
+  /* background-color: aqua; */
+
+
+  background:
+    url('../../../resource/backgrounds/WaveLinesDesktop1.svg'),
+    url('../../../resource/backgrounds/WaveLinesDesktop2.svg'),
+    url('../../../resource/backgrounds/WaveLinesDesktop3.svg'),
+    url('../../../resource/backgrounds/WaveLinesDesktop1.svg');
+    /* url('../../../resource/backgrounds/WaveLinesDesktop4.svg'); */
+  /* background-position: 20% 50% ,50% 30%, 90% 50%, -100% -60%; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition-timing-function:ease-in-out;
+  transition: 1s;
+  /* transition: transform */
+}
+
+
+.background-layer:hover{
+  transform: translateX(-15px) ;
+} 
+
+
+.part-2-img-container{
+  background: url('../../../resource/frames/founder/carousel-image-frame-1.svg');
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-size: contain;
+}
+.part-2-float-1{
+  width:90%;
+  height: 100%;
+  position: absolute;
+  /* background-color: aqua; */
+ 
+  background: 
+  url('../../../resource/frames/founder/2.svg');
+  /* url('../../../resource/frames/founder/2.svg'); */
+  background-repeat:no-repeat ;
+  background-position:100% 90% ;
+  transition: 1s;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+}
+.part-2-float-1:hover{
+  transform: translateX(-50px);
+}
+
+
+
+
+.box-2 {
+  background:
+    url('../../../resource/photo_1.jpg'), url('../../../resource/backgrounds/WaveLinesDesktop2.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100% 50%;
+  clip-path: polygon(57% 0, 100% 0, 100% 55%, 70% 100%, 0 92%);
+  background-size: cover, contain;
+  position: relative;
+}
+
+
+
+
+
+
+.box-2-lined {
+  position: absolute;
+  top: 10;
+  right: 0;
+  background: url('../../../resource/backgrounds/avater.png');
+  background-position: right center;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+  .box-1 {
+
+    clip-path: polygon(0 0, 100% 0, 100% 77%, 0 95%);
+    /* width: 100%;
+        height: 50%; */
+    overflow: hidden;
+
+  }
+
+  .box-2 {
+    /* width: 100%;
+    height: 50%; */
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: -15%;
+    clip-path: polygon(0 22%, 100% 0, 100% 77%, 0 100%);
+    ;
+    overflow: hidden;
+    /* padding-bottom: 500px; */
+    background: url('../../../resource/photo_1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100% 20%;
+  }
+  .background-layer {
+    width: 0vw;
+    height: 0vh;
+    /* background-color: aqua; */
+  
+  
+   
+    /* transition: transform */
+  }
+
+  .part-2-float-1{
+
+  }
+}
+

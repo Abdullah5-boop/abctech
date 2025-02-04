@@ -40,7 +40,7 @@ export default function Part5() {
                     <h1 className='text-4xl font-bold'>Legacy no longer</h1>
                     <h1 className='text-xl my-5'>Talk to us to find out how we can transform your organisation for the future
                     </h1>
-                    <button className="bg-transparent bg-orange-500  font-semibold  py-2 px-12 border border-black  rounded">
+                    <button className=" bg-orange-500  font-semibold  py-2 px-12 border border-black  rounded">
                         contact us
                     </button>
                 </div>

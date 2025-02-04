@@ -6,10 +6,10 @@ import icon2 from '../../../resource/icons/cart/home_24dp_E8EAED_FILL0_wght400_G
 import icon3 from '../../../resource/icons/cart/view_kanban_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg'
 export default function Part3() {
     return (
-        <div className='flex flex-col justify-center items-center'>
+        <div className='flex flex-col justify-center items-center mt-36'>
             <div className="part-3-heading text-center">
                 <h2 className='font-bold '>OUR PHILOSOPHY</h2>
-                <h1 className='text-7xl mb-3 '>Human-centred innovation </h1>
+                <h1 className='text-3xl lg:text-7xl mb-3 '>Human-centred innovation </h1>
             </div>
             <div className="part-3-img pt-3">
                 <Image
